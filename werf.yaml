@@ -1,9 +1,9 @@
 project: debug-werf-cache-1
 configVersion: 1
 gitWorktree:
-  forceShallowClone: false
-  allowUnshallow: true
-  allowFetchOriginBranchesAndTags: true
+  forceShallowClone: true
+  allowUnshallow: false
+  allowFetchOriginBranchesAndTags: false
 ---
 image: a
 from: alpine
