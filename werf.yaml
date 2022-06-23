@@ -3,6 +3,7 @@ configVersion: 1
 ---
 image: a
 from: alpine
+fromCacheVersion: "2"
 git:
 - add: /
   to: /app
